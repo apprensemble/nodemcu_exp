@@ -31,7 +31,7 @@ https://github.com/espressif/esptool
 
 ### action nodemcu-tool
 
-lancer le terminal : nodemcu-tool terminal
+lancer le terminal : ```lua nodemcu-tool terminal```
 
 voir les fichiers sur le node : nodemcu-tool fsinfo
 
