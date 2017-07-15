@@ -1,4 +1,4 @@
-#NodeMCU Lua
+# NodeMCU Lua
 
 Projet d'utilisation du nodeMCU. A terme je souhaite que ce soit le point d'entré de tout mes projets NodeMCU.
 
@@ -19,9 +19,11 @@ aller sur https://nodemcu.readthedocs.io/ et suivre les instructions. En gros il
 
 ### action esptool
 
+````sh
 esptool.py --port /dev/ttyUSB0 write_flash -fm dio 0x0 firmware/nodemcu-firmware/bin/nodemcu_integer_1.5.4.1-final_20170708-1522.bin
+````
 
-esptool.py --port le_port action -fm le_mode l_adresse le_firmware
+  esptool.py --port le_port action -fm le_mode l_adresse le_firmware
 
 ### source
 
