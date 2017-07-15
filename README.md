@@ -20,6 +20,7 @@ aller sur https://nodemcu.readthedocs.io/ et suivre les instructions. En gros il
 ### action esptool
 
 esptool.py --port /dev/ttyUSB0 write_flash -fm dio 0x0 firmware/nodemcu-firmware/bin/nodemcu_integer_1.5.4.1-final_20170708-1522.bin
+
 esptool.py --port le_port action -fm le_mode l_adresse le_firmware
 
 ### source
@@ -29,9 +30,13 @@ https://github.com/espressif/esptool
 ### action nodemcu-tool
 
 lancer le terminal : nodemcu-tool terminal
+
 voir les fichiers sur le node : nodemcu-tool fsinfo
+
 effacer un fichier : nodemcu-tool remove nom_fichier
+
 envoyer un fichier : nodemcu-tool upload nom_fichier
+
 lancer un programme : nodemcu-tool run nom_fichier
 
 ### source
