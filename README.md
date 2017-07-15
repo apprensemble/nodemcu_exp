@@ -33,13 +33,13 @@ https://github.com/espressif/esptool
 
 lancer le terminal : ```lua nodemcu-tool terminal```
 
-voir les fichiers sur le node : nodemcu-tool fsinfo
+voir les fichiers sur le node : ```lua nodemcu-tool fsinfo```
 
-effacer un fichier : nodemcu-tool remove nom_fichier
+effacer un fichier : ```lua nodemcu-tool remove nom_fichier```
 
-envoyer un fichier : nodemcu-tool upload nom_fichier
+envoyer un fichier : ```lua nodemcu-tool upload nom_fichier```
 
-lancer un programme : nodemcu-tool run nom_fichier
+lancer un programme : ```lua nodemcu-tool run nom_fichier```
 
 ### source
 
@@ -47,7 +47,7 @@ https://github.com/AndiDittrich/NodeMCU-Tool
 
 ### action en lua que l'on peut aussi lancer via le terminal
 
-Arret wifi : wifi.setmode(wifi.NULLMODE)
+Arret wifi : ```lua wifi.setmode(wifi.NULLMODE)```
 
 ## ressources indispensables
 
