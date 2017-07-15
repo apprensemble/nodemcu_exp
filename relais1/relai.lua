@@ -1,20 +1,20 @@
-print("Ready to start soft ap AND station")
+print("Ready to start relais_1 AND connect to relais_2")
 local str=wifi.ap.getmac();
 local ssidTemp=string.format("%s%s%s",string.sub(str,10,11),string.sub(str,13,14),string.sub(str,16,17));
 wifi.setmode(wifi.STATIONAP)
 
 local cfg={}
-cfg.ssid="relais_"..ssidTemp;
+cfg.ssid="relais_1";
 cfg.pwd="12345678"
 wifi.ap.config(cfg)
  cfg={}
- cfg.ip="192.168.3.1";
+ cfg.ip="192.168.2.1";
  cfg.netmask="255.255.255.0";
- cfg.gateway="192.168.3.1";
+ cfg.gateway="192.168.2.1";
  wifi.ap.setip(cfg);
  
  --wifi.sta.config("Livebox-CFFC","CF5341C5D91651E54127C6E947")
-wifi.sta.config("mon_relais","wifiwifi")
+wifi.sta.config("relais_2","12345678")
 -- wifi.sta.config("ESP8266_b2e22f","12345678")
  wifi.sta.connect()
  
@@ -31,7 +31,7 @@ wifi.sta.config("mon_relais","wifiwifi")
          print("Soft AP started")
          print("Heep:(bytes)"..node.heap());
          print("MAC:"..wifi.ap.getmac().."\r\nIP:"..wifi.ap.getip());
-         if (cnt < 20) then print("Conected to Router\r\nMAC:"..wifi.sta.getmac().."\r\nIP:"..wifi.sta.getip())
+         if (cnt < 20) then print("Conected to Router relais_2\r\nMAC:"..wifi.sta.getmac().."\r\nIP:"..wifi.sta.getip())
              else print("Conected to Router Timeout")
          end
  gpio.write(0,gpio.LOW);
