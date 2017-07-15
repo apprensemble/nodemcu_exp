@@ -41,6 +41,8 @@ envoyer un fichier : ```lua nodemcu-tool upload nom_fichier```
 
 lancer un programme : ```lua nodemcu-tool run nom_fichier```
 
+activer un port gpio : gpio.write(index,gpio.{HIGH|LOW}) ce qui donne en vrai ```lua gpio.write(2,gpio.HIGH)```
+
 ### source
 
 https://github.com/AndiDittrich/NodeMCU-Tool
@@ -52,3 +54,13 @@ Arret wifi : ```lua wifi.setmode(wifi.NULLMODE)```
 ## ressources indispensables
 
 https://nodemcu.readthedocs.io/
+
+### schema 
+
+https://github.com/nodemcu/nodemcu-devkit-v1.0
+
+### Fritzing
+
+https://github.com/squix78/esp8266-fritzing-parts/tree/master/nodemcu-v1.0
+
+https://github.com/adafruit/Fritzing-Library/blob/master/parts/PIR%20sensor.fzpz

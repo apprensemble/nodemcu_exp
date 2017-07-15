@@ -1,0 +1,6 @@
+[submodule "detecteur_mouvement"]
+	path = detecteur_mouvement
+	url = https://github.com/apprensemble/detecteur_mouvement.git
+[submodule "nodemcu-firmware"]
+	path = nodemcu-firmware
+	url = https://github.com/nodemcu/nodemcu-firmware.git
