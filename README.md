@@ -16,6 +16,11 @@ J'ai testé le matériel, il est fonctionnel et prêt à l'emploi, ya plus qu'à
 * detecteur de mouvement : https://github.com/apprensemble/detecteur_mouvement
 
 * relais wifi type pseudo mesh qui marche pas, qu'on trouve dans le dossier relais1 et relais2 :)
+  * http://www.areresearch.net/2015/07/second-successful-attempt-to-route.html
+	* http://www.areresearch.net/2015/10/using-esp8266-as-wifi-range-extender.html
+  * https://github.com/olab-io/meshish
+	* https://github.com/olab-io/ESP8266-Research
+	* https://github.com/Coopdis/easyMesh
 
 ## Cheatsheet
 
