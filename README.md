@@ -11,6 +11,12 @@ Reunir le monde electronique et informatique via ce qu'on appel vulgairement : l
 Pour le moment j'ai reçu 3 NodeMCU sur lesquels j'ai mis le firmware. 2 capteurs de presence infrarouge et j'avais déjà un arduino UNO avec quelques babioles. :)
 J'ai testé le matériel, il est fonctionnel et prêt à l'emploi, ya plus qu'à...
 
+## liste des sous projets :
+
+* detecteur de mouvement : https://github.com/apprensemble/detecteur_mouvement
+
+* relais wifi type pseudo mesh qui marche pas, qu'on trouve dans le dossier relais1 et relais2 :)
+
 ## Cheatsheet
 
 ### Pour demarer
