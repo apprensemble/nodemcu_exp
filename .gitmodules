@@ -3,4 +3,4 @@
 	url = https://github.com/apprensemble/detecteur_mouvement.git
 [submodule "nodemcu-firmware"]
 	path = nodemcu-firmware
-	url = https://github.com/nodemcu/nodemcu-firmware.git
+	url = git@github.com:apprensemble/nodemcu-firmware.git
