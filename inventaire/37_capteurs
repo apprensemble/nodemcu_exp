@@ -1,0 +1,26 @@
+37 sensors;https://tkkrlab.nl/wiki/Arduino_37_sensors;EC
+ky-006;buzzer passif;https://tkkrlab.nl/wiki/Arduino_KY-006_Small_passive_buzzer_module;OK
+ky-031;detecteur de shock qui ressemble a une led;https://www.youtube.com/watch?v=BtTQGpMpq0E,https://sites.google.com/site/summerfuelrobots/arduino-sensor-tutorials/knock-tap-sensor-ky-031;OK
+ky-001;capteur de temperature;j'ai essayer plein de sites;KO
+ky-003;capteur magnetique;https://tkkrlab.nl/wiki/Arduino_KY-003_Hall_magnetic_sensor_module;OK
+ky-002;capteur de vibration/d'alignement :p;https://tkkrlab.nl/wiki/Arduino_KY-002_Vibration_switch_module;OK
+ky-004;switch(un bouton quoi);https://tkkrlab.nl/wiki/Arduino_KY-004_Key_switch_module;OK
+ky-005;emeteur infrarouge, a voir plus tard;https://tkkrlab.nl/wiki/Arduino_KY-005_Infrared_emission_sensor_module;EC
+ky-008;emeteur lazer;https://tkkrlab.nl/wiki/Arduino_KY-008_Laser_sensor_module;OK
+ky-009;tridiode lumineuse RGB;https://tkkrlab.nl/wiki/Arduino_KY-009_3-color_full-color_LED_SMD_modules;EC;Je n'ai pas les resistances qu'il faut
+ky-011;led bicolor;https://tkkrlab.nl/wiki/Arduino_KY-011_2-color_LED_module;OK
+ky-012;active buzzer;https://tkkrlab.nl/wiki/Arduino_KY-012_Active_buzzer_module;OK;Attention il faut mettre le + sur le -
+ky-013;capteur de temperature(petite boule);https://www.youtube.com/watch?v=XBC6pjXSkx0;OK
+ky-015,capteur d'humidité et de temperature;https://tkkrlab.nl/wiki/Arduino_KY-015_Temperature_and_humidity_sensor_module;OK;30°C et 90% dhumidité au dessus d'une tasse de thé en cours d'infusion...L'humidité je veux bien mais 30°C j'ai un doute.
+ky-016;diode tricolor;https://tkkrlab.nl/wiki/Arduino_KY-016_3-color_LED_module;OK
+ky-017;mercury optical module;https://tkkrlab.nl/wiki/Arduino_KY-017_Mercury_open_optical_module;OK
+ky-018;photoreistance;https://tkkrlab.nl/wiki/Arduino_KY-018_Photo_resistor_module;OK
+ky-019;switch relai;https://tkkrlab.nl/wiki/Arduino_KY-019_5V_relay_module,https://www.youtube.com/watch?v=AHxG5aSWFi0;OK;Le seul gars a avoir fait un schema complet il ne le montre qu'en video!!!
+ky-020;tilt switch;https://tkkrlab.nl/wiki/Arduino_KY-020_Tilt_switch_module;OK
+ky-021;mini capteur de champs magnetic;https://tkkrlab.nl/wiki/Arduino_KY-021_Mini_magnetic_reed_modules;OK;bidon comme capteur...
+ky-022:recepteur infrarouge;;EC;un peu compliqué à tester il me faudra configurer aussi le nodemcu
+ky-023;joystick;https://tkkrlab.nl/wiki/Arduino_KY-023_XY-axis_joystick_module;OK;super classe :)
+ky-024;linear hall magnetic;https://tkkrlab.nl/wiki/Arduino_KY-024_Linear_magnetic_Hall_sensors;OK
+ky-025;reed;https://tkkrlab.nl/wiki/Arduino_KY-025_Reed_module;OK;C'est quoi la difference avec le magnetic hall???
+
+ky-028;capteur de temperature;
