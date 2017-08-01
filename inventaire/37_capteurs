@@ -1,11 +1,10 @@
 37 sensors;https://tkkrlab.nl/wiki/Arduino_37_sensors;EC
-ky-006;buzzer passif;https://tkkrlab.nl/wiki/Arduino_KY-006_Small_passive_buzzer_module;OK
-ky-031;detecteur de shock qui ressemble a une led;https://www.youtube.com/watch?v=BtTQGpMpq0E,https://sites.google.com/site/summerfuelrobots/arduino-sensor-tutorials/knock-tap-sensor-ky-031;OK
-ky-001;capteur de temperature;j'ai essayer plein de sites;KO
+ky-001;capteur de temperature;j'ai essayer plein de sites, https://arduino-info.wikispaces.com/Brick-Temperature-DS18B20, https://tkkrlab.nl/wiki/Arduino_KY-001_Temperature_sensor_module;KO
 ky-003;capteur magnetique;https://tkkrlab.nl/wiki/Arduino_KY-003_Hall_magnetic_sensor_module;OK
 ky-002;capteur de vibration/d'alignement :p;https://tkkrlab.nl/wiki/Arduino_KY-002_Vibration_switch_module;OK
 ky-004;switch(un bouton quoi);https://tkkrlab.nl/wiki/Arduino_KY-004_Key_switch_module;OK
 ky-005;emeteur infrarouge, a voir plus tard;https://tkkrlab.nl/wiki/Arduino_KY-005_Infrared_emission_sensor_module;EC
+ky-006;buzzer passif;https://tkkrlab.nl/wiki/Arduino_KY-006_Small_passive_buzzer_module;OK
 ky-008;emeteur lazer;https://tkkrlab.nl/wiki/Arduino_KY-008_Laser_sensor_module;OK
 ky-009;tridiode lumineuse RGB;https://tkkrlab.nl/wiki/Arduino_KY-009_3-color_full-color_LED_SMD_modules;EC;Je n'ai pas les resistances qu'il faut
 ky-011;led bicolor;https://tkkrlab.nl/wiki/Arduino_KY-011_2-color_LED_module;OK
@@ -22,5 +21,15 @@ ky-022:recepteur infrarouge;;EC;un peu compliqué à tester il me faudra configu
 ky-023;joystick;https://tkkrlab.nl/wiki/Arduino_KY-023_XY-axis_joystick_module;OK;super classe :)
 ky-024;linear hall magnetic;https://tkkrlab.nl/wiki/Arduino_KY-024_Linear_magnetic_Hall_sensors;OK
 ky-025;reed;https://tkkrlab.nl/wiki/Arduino_KY-025_Reed_module;OK;C'est quoi la difference avec le magnetic hall???
-
-ky-028;capteur de temperature;
+ky-026;flame module;https://tkkrlab.nl/wiki/Arduino_KY-026_Flame_sensor_module;OK
+ky-028;capteur de temperature;https://tkkrlab.nl/wiki/Arduino_KY-028_Temperature_sensor_module;KO
+ky-029;grosse diode bicolor;https://tkkrlab.nl/wiki/Arduino_KY-029_Yin_Yi_2-color_LED_module_3MM;OK
+ky-031;detecteur de shock qui ressemble a une led;https://www.youtube.com/watch?v=BtTQGpMpq0E,https://sites.google.com/site/summerfuelrobots/arduino-sensor-tutorials/knock-tap-sensor-ky-031;OK
+ky-032;Detecteur de colision;https://tkkrlab.nl/wiki/Arduino_KY-032_Obstacle_avoidance_sensor_module;KO
+ky-033;detecteur de ligne noire;https://tkkrlab.nl/wiki/Arduino_KY-033_Hunt_sensor_module;OK
+ky-034;flash 7 coulor;https://tkkrlab.nl/wiki/Arduino_KY-034_Automatic_flashing_colorful_LED_module;KO;n'affiche que du vert,+ sur le S et Ground sur le milieu
+ky-035;capteur magnetic;https://tkkrlab.nl/wiki/Arduino_KY-035_Class_Bihor_magnetic_sensor;OK
+ky-037;capteur de son;https://tkkrlab.nl/wiki/Arduino_KY-037_Sensitive_microphone_sensor_module;OK
+ky-038;petit capteur de son;https://tkkrlab.nl/wiki/Arduino_KY-038_Microphone_sound_sensor_module;OK
+ky-039;heart beat;https://www.youtube.com/watch?v=aTNucRXDgyM,https://tkkrlab.nl/wiki/Arduino_KY-039_Detect_the_heartbeat_module;OK;la video sur youtube est bien
+ky-040;Rotary encoder module;https://tkkrlab.nl/wiki/Arduino_KY-040_Rotary_encoder_module,https://forum.arduino.cc/index.php?topic=242356.0;OK
